@@ -32,7 +32,7 @@ public class Account extends javax.swing.JFrame {
     }
     public void setLoginMain(LoginMain lm) {
         if (lm != null) {
-            this.lm = lm;
+            this.lm = lm;//tite
         }
     }
  public void setSname() {
