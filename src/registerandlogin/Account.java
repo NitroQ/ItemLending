@@ -26,6 +26,7 @@ public class Account extends javax.swing.JFrame {
     ResultSet rs = null;
     Statement st = null;
     
+    
     public Account(LoginMain lm) {
          this.setLoginMain(lm);
         initComponents();
@@ -35,21 +36,21 @@ public class Account extends javax.swing.JFrame {
             this.lm = lm;//tite
         }
     }
- public void setSname() {
-        String name = this.lm.getSname();
-        nyt.setText(nyt.getText().replace("You", name));
-     
-    }
- public void acctName(){
-        String name1 = this.lm.getSname();
-        yey.setText(yey.getText().replace("You", name1));
-    
- }
- public void UName(){
-        String name2 = this.lm.getUname();
-        lol.setText(lol.getText().replace("You", name2));
-    
- }
+// public void setSname() {
+//        String name = this.lm.getSname();
+//        nyt.setText(nyt.getText().replace("You", name));
+//     
+//    }
+// public void acctName(){
+//        String name1 = this.lm.getSname();
+//        yey.setText(yey.getText().replace("You", name1));
+//    
+// }
+// public void UName(){
+//        String name2 = this.lm.getUname();
+//        lol.setText(lol.getText().replace("You", name2));
+//    
+// }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
